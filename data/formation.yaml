@@ -1,0 +1,13 @@
+- nom: Bts sio
+  etablissement: CaenSUP
+  debut: 2024
+  fin: 2026
+  lieu: caen
+  contenu: info
+- nom: Bac Stmg
+  etablissement: SU
+  debut: 2023
+  fin: 2024
+  lieu: caen
+  contenu: sig/stmg
+  

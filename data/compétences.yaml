@@ -1,0 +1,14 @@
+- nom: Développement
+  items:
+    - nom: html
+      niveau: 90
+    - nom: css
+      niveau: 50
+- nom: Réseau
+  items:
+    - nom: adressageip
+      niveau: 10
+    - nom: trames
+      niveau: 60
+    
+    
