@@ -9,6 +9,8 @@
 
     <body>
 
+
+
 <?php
     include("pages/accueil.php");
     include("pages/compétences.php");
