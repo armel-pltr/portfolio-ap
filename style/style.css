@@ -10,3 +10,12 @@
 body{
     background: linear-gradient(#e66465, #9198e5);
 }
+
+h1{
+    font-size: 50px;
+}
+
+p {
+    font-size: 25px;
+}
+

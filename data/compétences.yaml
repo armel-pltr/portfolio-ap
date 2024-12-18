@@ -1,14 +1,18 @@
 - nom: Développement
   items:
-    - nom: html
+    - nom: Html
       niveau: 90
-    - nom: css
+    - nom: Css
       niveau: 50
+    - nom : Php
+      niveau: 10
+    - nom : Javascript
+      niveau: 5
 - nom: Réseau
   items:
-    - nom: adressageip
+    - nom: Adressage IP
       niveau: 10
-    - nom: trames
+    - nom: Analyse de trames
       niveau: 60
     
     
