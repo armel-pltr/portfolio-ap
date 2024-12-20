@@ -3,7 +3,7 @@
     
     <head>
         <meta charset="utf-8">
-        <title>Portfolio Armel</title>
+        <title>Portfolio Armel PLANTIER</title>
         <link rel="stylesheet" href="style/style.css">
     </head>
 
