@@ -1,5 +1,5 @@
-- nom: Nom expéditeur
-  adresse: couriel exp
-  objet: objet  
-  contenu-message: contenu message
-  captcha: captcha
+- nom: Entrez votre nom.
+  adresse: Entrez votre adresse mail.
+  objet: Renseignez un objet.
+  contenu-message: Renseignez le contenu de votre messaage.
+
