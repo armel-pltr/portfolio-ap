@@ -8,11 +8,19 @@
       niveau: 10
     - nom : Javascript
       niveau: 5
+    - nom : Sql
+      niveau: 5
+    - nom : Excel 
+      niveau: 70
 - nom: Réseau
   items:
     - nom: Adressage IP
       niveau: 10
     - nom: Analyse de trames
+      niveau: 60
+    - nom: Mise en place d'un DNS sous debian
+      niveau: 70
+    - nom: Hebergement d'un site sous debian
       niveau: 60
     
     

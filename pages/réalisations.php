@@ -1,27 +1,26 @@
 <?php
 
-$data=yaml_parse_file('data/réalisations.yaml');
+$data = yaml_parse_file('data/réalisations.yaml');
 
 echo "<div class='wrapper'>";  
 echo "<div class='container-realisation'>"; 
 
+echo "<h1>Réalisations en SLAM</h1>";  
 
-
-echo "<h1>Réalisations</h1>";  
-
-
-foreach($data AS $realisation){
-
+foreach($data as $realisation) {
     echo "<h2>".$realisation["titre"]."</h2>";
+    
+
+    
+    // Description du portfolio
     echo "<p>".$realisation["description"]."</p>";
-    echo "<p>".$realisation["illustration"]."</p>";
-    foreach($realisation['documents'] as $document){
-        echo $document."<br>";
-    }
+
+    // Lien cliquable vers l'illustration (image du portfolio)
+    echo "<a href='".$realisation["illustration"]."' target='_blank' class='portfolio-link'>";
+    echo "<p>Voir l'illustration du Portfolio</p></a>";
+    
 }
 
 echo "</div>";
 echo "</div>";
-
-
 ?>

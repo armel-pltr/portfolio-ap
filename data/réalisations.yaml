@@ -1,18 +1,11 @@
 - titre: Portfolio
-  description: Un portfolio créee avec les languages HTML, CSS, PHP, YAML.
-  illustration: image.png
-  documents: 
-    - portfolio.pdf
-    - consignes.pdf
-- titre: Portfolio
-  description: Un portfolio créee avec les languages HTML, CSS, PHP, YAML.
-  illustration: image.png
-  documents: 
-    - portfolio.pdf
-    - consignes.pdf
-- titre: Portfolio
-  description: Un portfolio créee avec les languages HTML, CSS, PHP, YAML.
-  illustration: image.png
-  documents: 
-    - portfolio.pdf
-    - consignes.pdf
+  description: Un portfolio créé avec les langages HTML, CSS, PHP, YAML. Il a pour but de montrer mes compétences et les différentes réalisation que j'ai pu faire.
+  illustration: images/portfolio.png
+
+- titre: Site internet blog arena 
+  description: Ce site à été crée en HTML et CSS dans le cadre d'une activité en BLOC 1.
+  illustration: images/aboutus.png
+
+- titre: Survole Bouton
+  description: Une petit script en JS permetant lorsqu'un element est survolé, de nous avertir.
+  illustration: images/mouseover.png
