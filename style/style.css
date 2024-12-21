@@ -1,19 +1,12 @@
-*{
-    font-family: 'Roboto', sans-serif;  
-}
 
 .barre {
-    background: red;
-    height: 20px;
-
+    background: rgb(14, 1, 75); 
+    width: 40px;
     text-align: right;
     color: white;
     border-radius: 100px;
 }
 
-body{
-    background: linear-gradient(#e66465, #9198e5);
-}
 
 h1{
     font-size: 50px;
@@ -23,12 +16,11 @@ p {
     font-size: 25px;
 }
 
-.container {
-    text-align: center; 
-}
+
 
 .imagebvn {
-    display: inline-block; 
+    display: inline-block;
+    margin: 10px; 
 
 }
 
@@ -40,6 +32,7 @@ p {
     border: 3px solid #ddd; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
     transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    margin: 50px;
 }
 
 
@@ -47,9 +40,6 @@ p {
     transform: scale(1.05); 
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
 }
-
-
-
 
 
 nav ul {
@@ -65,7 +55,8 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white; 
+    color: rgb(255, 255, 255); 
+    margin: 50px;
     text-decoration: none; 
     font-size: 18px; 
     padding: 10px 15px; 
@@ -95,4 +86,70 @@ section p {
 }
 
 
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;  
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 37px;
+    margin: 15px 0;
+}
+
+h3{
+    font-size: 50px;
+    color: white;
+}
+
+p {
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+
+
+.container-competences, .container-contact, .container-realisation, .container-formation {
+    width: 80%;
+    max-width: 800px;
+    padding: 30px;
+    background-color: #afc5db;
+    border: 1px solid #afc5db;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    margin-top: 50px;
+}
+
+footer {
+    background: rgba(0, 51, 102, 0.9); 
+    color: white; 
+    text-align: center;
+    padding: 20px; 
+    font-size: 14px;
+    margin-top: 50px;
+}
+
+
+.container-accueil {
+    text-align: center; 
+}
+
+.p-{
+    color: white;
+}

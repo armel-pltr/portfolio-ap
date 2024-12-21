@@ -7,7 +7,6 @@
     </head>
 
     <body>
-        <!-- Menu de navigation -->
         <nav>
             <ul>
                 <li><a href="#accueil">Accueil</a></li>
@@ -18,7 +17,6 @@
             </ul>
         </nav>
 
-        <!-- Sections du portfolio -->
         <div id="accueil">
             <?php include("pages/accueil.php"); ?>
         </div>
@@ -38,5 +36,10 @@
         <div id="realisations">
             <?php include("pages/réalisations.php"); ?>
         </div>
+
+        <!-- Add the footer here -->
+        <footer>
+            <p>&copy; 2024 Armel PLANTIER. Tous droits réservés.</p>
+        </footer>
     </body>
 </html>

@@ -1,6 +1,9 @@
+
 <?php
 $data=yaml_parse_file('data/compétences.yaml');
 
+echo "<div class='wrapper'>";  
+echo "<div class='container-competences'>";  
 echo "<h1>Compétences</h1>";  
 
 foreach($data AS $domaine){
@@ -10,5 +13,8 @@ foreach($data AS $domaine){
         echo "<p class='barre' style='width: ".$item["niveau"]."%'>".$item["niveau"]." %</p>"; 
     }
 }
+
+echo "</div>";  
+echo "</div>";  
 
 ?>

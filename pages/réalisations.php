@@ -2,6 +2,10 @@
 
 $data=yaml_parse_file('data/réalisations.yaml');
 
+echo "<div class='wrapper'>";  
+echo "<div class='container-realisation'>"; 
+
+
 
 echo "<h1>Réalisations</h1>";  
 
@@ -16,6 +20,8 @@ foreach($data AS $realisation){
     }
 }
 
+echo "</div>";
+echo "</div>";
 
 
 ?>
